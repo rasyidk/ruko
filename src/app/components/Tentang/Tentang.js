@@ -20,15 +20,15 @@ export function Tentang() {
   ];
 
   return (
-    <div className="w-full bg-white p-24">
+    <div className="w-full bg-white p-12 md:p-24">
       <div className="flex flex-col items-center justify-center gap-16">
-        <span className="text-primary text-4xl font-semibold">
+        <span className="text-primary text-3xl md:text-4xl font-semibold text-center">
           Tentang Rumah Korea Indonesia
         </span>
         <div className="w-full">
           <Swiper
             centeredSlides={true}
-            slidesPerView={3}
+            slidesPerView={1}
             spaceBetween={30}
             loop={true}
             autoplay={{
@@ -41,10 +41,15 @@ export function Tentang() {
             navigation={true}
             modules={[Pagination, Navigation, Autoplay]}
             className="mySwiper"
+            breakpoints={{
+              768: {
+                slidesPerView: 3,
+              },
+            }}
           >
             {image.map((img, index) => (
               <SwiperSlide key={index}>
-                <div className="w-full h-64 rounded-lg overflow-hidden">
+                <div className="w-full h-48 md:h-64 rounded-lg overflow-hidden">
                   <img
                     src={img}
                     alt={`kotak gambar ${index + 1}`}
