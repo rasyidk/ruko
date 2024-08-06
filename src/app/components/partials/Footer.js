@@ -23,38 +23,33 @@ const medsos = [
     type: "instagram",
     link: "https://www.instagram.com/porsenigama/",
     icon1: "type1_instagram",
-    icon: <SiInstagram />,
   },
   {
     type: "tiktok",
     link: "https://www.tiktok.com/@porsenigama",
     icon1: "type1_tiktok",
-    icon: <SiTiktok />,
   },
   {
     type: "youtube",
     link: "https://www.youtube.com/@porsenigamatv3221",
     icon1: "type1_youtube",
-    icon: <SiYoutube />,
   },
 
   {
     type: "twitter",
     link: "https://twitter.com/porsenigama",
     icon1: "type1_x",
-    icon: <SiX />,
   },
   {
     type: "line",
     link: "https://page.line.me/porsenigama?openQrModal=true",
     icon1: "type1_line",
-    icon: <SiLine />,
   },
 ];
 
 export function Footer({ type }) {
   return (
-    <footer className=" bg-primary w-full items-center justify-center">
+    <footer className=" bg-primary w-full items-center justify-center text-white">
       <div className="flex justify-between px-[16px] pb-4 md:px-[32px] lg:px-[72px] lg:pb-0">
         <div className="  w-full rounded-[40px]   p-4 md:p-8 lg:flex lg:justify-between ">
           <div>
@@ -93,8 +88,16 @@ export function Footer({ type }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="hover:bg-green-30 flex w-[24px] items-center justify-center ">
-                    {link.icon}
+                  <div className="hover:bg-green-30 flex w-[50px] items-center justify-center ">
+                    <Image
+                      src={
+                        "/assets/sosmed/" +
+                        link.type.toLocaleUpperCase() +
+                        ".png"
+                      }
+                      width={100}
+                      height={100}
+                    />
                   </div>
                 </a>
               ))}
