@@ -1,9 +1,8 @@
 "use client";
 
-import Aos from "aos";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 
 export default function Navbar() {
   return (
