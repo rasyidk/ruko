@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LayananCard from "@/app/components/LayananKami/components/LayananCard";
+import { services } from "@/database/service";
 
 export default function LayananKami() {
   return (
@@ -11,12 +12,12 @@ export default function LayananKami() {
             "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 overflow-x-auto"
           }
         >
-          {Array.from({ length: 8 }).map((_, index) => (
+          {services.map((service, index) => (
             <LayananCard
               key={index}
-              image={"/assets/layanan/card_header.png"}
-              title={"Kursus Bahasa Korea Online Interaktif Via Zoom Meeting"}
-              link={"#"}
+              image={service.image}
+              title={service.title}
+              link={`/services/${service.slug}`}
             />
           ))}
         </div>

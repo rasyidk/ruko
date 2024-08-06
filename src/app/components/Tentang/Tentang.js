@@ -13,10 +13,10 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 export function Tentang() {
   const image = [
-    "/assets/layanan/card_header.png",
-    "/assets/layanan/card_header.png",
-    "/assets/layanan/card_header.png",
-    "/assets/layanan/card_header.png",
+    "https://www.youtube.com/embed/nRlTg2KH_h8",
+    "https://www.youtube.com/embed/tYuGl9R-hX8",
+    "https://www.youtube.com/embed/84-m07v6VcQ",
+    "https://www.youtube.com/embed/2oANsHiXMrE",
   ];
 
   return (
@@ -53,7 +53,7 @@ export function Tentang() {
                     <div className="absolute inset-0 m-3 overflow-hidden rounded-xl bg-white shadow-2xl sm:m-4 md:m-5 md:rounded-2xl">
                       <iframe
                         title={"sambutan.title"}
-                        src={"https://www.youtube.com/embed/V3B73nC_gg8"}
+                        src={img}
                         className="absolute inset-0 h-full w-full rounded-2xl px-[8px] py-[7px] md:rounded-3xl md:p-[12px]"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
