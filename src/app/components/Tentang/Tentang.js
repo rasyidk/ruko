@@ -29,28 +29,35 @@ export function Tentang() {
           <Swiper
             centeredSlides={true}
             slidesPerView={1}
-            spaceBetween={30}
+            spaceBetween={5}
             loop={true}
             pagination={{
               clickable: true,
             }}
             navigation={true}
             modules={[Pagination, Navigation, Autoplay]}
-            className="mySwiper "
+            className="mySwiper"
             breakpoints={{
               768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
               },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 10
+              },
+              1280: {
+                slidesPerView: 3
+              }
             }}
           >
             {image.map((img, index) => (
               <SwiperSlide key={index}>
-                <div className="w-full h-full pb-16 m-auto rounded-lg overflow-hidden">
+                <div className="w-full h-full pb-6 m-auto rounded-lg overflow-hidden">
                   <div
-                    className="relative m-auto h-[195px] w-[320px] sm:h-[244px] sm:w-[400px] md:h-[287px] md:w-[460px] lg:h-[282px] lg:w-[450px] xl:h-[337px] xl:w-[550px]"
+                    className="relative m-auto h-[192px] w-[320px] sm:h-[244px] sm:w-[400px] md:h-[195px] md:w-[300px] lg:h-[260px] lg:w-[417px] xl:h-[260px] xl:w-[417px]"
                     key={"tes"}
                   >
-                    <div className="absolute inset-0 m-3 overflow-hidden rounded-xl bg-white shadow-2xl sm:m-4 md:m-5 md:rounded-2xl">
+                    <div className="absolute inset-0 m-3 overflow-hidden rounded-xl bg-white shadow-lg sm:m-4 md:m-5 md:rounded-2xl">
                       <iframe
                         title={"sambutan.title"}
                         src={img}
