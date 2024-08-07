@@ -90,11 +90,7 @@ export function Footer({ type }) {
                 >
                   <div className="hover:bg-green-30 flex w-[50px] items-center justify-center ">
                     <Image
-                      src={
-                        "/assets/sosmed/" +
-                        link.type.toLocaleUpperCase() +
-                        ".png"
-                      }
+                      src={"/assets/sosmed/" + link.type + ".png"}
                       unoptimized
                       width={100}
                       height={100}
