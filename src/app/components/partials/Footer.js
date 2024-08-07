@@ -21,28 +21,29 @@ import {
 const medsos = [
   {
     type: "instagram",
-    link: "https://www.instagram.com/porsenigama/",
+    link: "https://www.instagram.com/rumahkoreaedu",
     icon1: "type1_instagram",
   },
   {
-    type: "tiktok",
-    link: "https://www.tiktok.com/@porsenigama",
-    icon1: "type1_tiktok",
-  },
-  {
     type: "youtube",
-    link: "https://www.youtube.com/@porsenigamatv3221",
+    link: "https://www.youtube.com/channel/UChIBJIAOf8wo_zM2hE7LdFw",
     icon1: "type1_youtube",
   },
 
   {
+    type: "linkedin",
+    link: "https://www.linkedin.com/company/rumah-korea/",
+    icon1: "type1_linkedin",
+  },
+
+  {
     type: "twitter",
-    link: "https://twitter.com/porsenigama",
+    link: "https://x.com/rumahkoreaedu",
     icon1: "type1_x",
   },
   {
-    type: "line",
-    link: "https://page.line.me/porsenigama?openQrModal=true",
+    type: "facebook",
+    link: "https://www.facebook.com/rumahkoreaedu/",
     icon1: "type1_line",
   },
 ];
@@ -62,9 +63,8 @@ export function Footer({ type }) {
                 <IoLocationSharp className=" mr-2 h-6 w-6 text-gray-500" />
               </div>
               <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
-                Gelanggang Mahasiswa Universitas Gadjah Mada Jl. Pancasila No.1,
-                Bulaksumur, Caturtunggal, Sleman, Daerah Istimewa Yogyakarta
-                55281
+                Jl. Salakan No.6, RT.01, Randubelang, Bangunharjo, Kec. Sewon,
+                Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188 081328404065
               </p>
             </div>
 
@@ -95,6 +95,7 @@ export function Footer({ type }) {
                         link.type.toLocaleUpperCase() +
                         ".png"
                       }
+                      unoptimized
                       width={100}
                       height={100}
                     />

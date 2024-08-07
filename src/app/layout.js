@@ -11,8 +11,10 @@ const poppins = Poppins({
 export const metadata = {
   title: "Rumah Korea Indonesia",
   description: "Rumah Korea",
+  icons: {
+    icon: "/assets/favicon.png",
+  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
