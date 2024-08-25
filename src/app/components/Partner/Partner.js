@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Partner() {
   return (
-    <div className="w-full bg-[#F5F5F5]">
+    <div className="w-full bg-[#edebeb]">
       <div className="flex flex-col items-center justify-center py-16 gap-10">
         <span className="text-primary text-3xl md:text-4xl font-semibold text-center">
           Partner Rumah Korea Indonesia
