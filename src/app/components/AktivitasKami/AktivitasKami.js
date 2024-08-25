@@ -1,0 +1,82 @@
+"use client";
+
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import activities from "@/database/activities";
+
+export function AktivitasKami() {
+
+    return (
+        <div className={"bg-[#edebeb] flex w-full 2xl:px-52 lg:px-32 py-20"}>
+            <div className={"flex flex-col gap-6 my-8 w-full justify-center "}>
+                <h1 className={"text-primary text-4xl font-semibold  text-center"}>Aktivitas Rumah Korea Indonesia</h1>
+                <div className="w-full ">
+                    <Swiper
+                        centeredSlides={true}
+                        slidesPerView={1}
+                        spaceBetween={5}
+                        loop={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={true}
+                        modules={[Pagination, Navigation, Autoplay]}
+                        className="mySwiper "
+
+                    >
+                        {activities.map((activity, index) => (
+                            <SwiperSlide className={"mt-5 flex w-full justify-center "} key={index}>
+                                <div className={"w-full flex justify-center scale-[90%]"}>
+                                <div
+                                    className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[48rem] flex-row">
+                                    <div
+                                        className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
+                                        <img
+                                            src={activity.image}
+                                            alt="card-image" className="object-cover w-full h-full"/>
+                                    </div>
+                                    <div className="p-6">
+                                        <h6
+                                            className="block mb-4 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-gray-700 uppercase">
+                                            {activity.date}
+                                        </h6>
+                                        <h4 className="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+                                            {activity.title}
+                                        </h4>
+                                        <p className="block mb-8 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
+                                            {activity.description}
+                                        </p>
+                                        <a href={activity.link} className="inline-block">
+                                            <button
+                                                className="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                                                type="button">
+                                                Lihat Selengkapnya
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                     stroke="currentColor"
+                                                     stroke-width="2" className="w-4 h-4">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                          d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                                </svg>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default AktivitasKami;

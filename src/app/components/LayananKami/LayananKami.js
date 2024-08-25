@@ -17,7 +17,8 @@ export default function LayananKami() {
               key={index}
               image={service.image}
               title={service.title}
-              link={`/services/${service.slug}`}
+              content={service.content}
+              link={`${service.link}`}
             />
           ))}
         </div>

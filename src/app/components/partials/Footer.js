@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { IoLocationSharp, IoTime } from "react-icons/io5";
+import {IoCall, IoLocationSharp, IoPhoneLandscape, IoTime} from "react-icons/io5";
 import PropTypes from "prop-types";
 import {
   IoChatbubbleEllipses,
@@ -60,7 +60,7 @@ export function Footer({ type }) {
 
             <div className="flex flex-row mt-4 items-start">
               <div className="flex items-center">
-                <IoLocationSharp className=" mr-2 h-6 w-6 text-gray-500" />
+                <IoLocationSharp className=" mr-2 h-6 w-6 text-gray-200"/>
               </div>
               <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
                 Jl. Salakan No.6, RT.01, Randubelang, Bangunharjo, Kec. Sewon,
@@ -70,7 +70,7 @@ export function Footer({ type }) {
 
             <div className="flex flex-row mt-4 items-start">
               <div className="flex items-center">
-                <IoTime className=" mr-2 h-6 w-6 text-gray-500" />
+                <IoTime className=" mr-2 h-6 w-6 text-gray-200"/>
               </div>
               <div className=" items-center w-full">
                 <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
@@ -78,17 +78,28 @@ export function Footer({ type }) {
                 </p>
               </div>
             </div>
+
+            <div className="flex flex-row mt-4 items-start">
+              <div className="flex items-center">
+                <IoCall className=" mr-2 h-6 w-6 text-gray-200"/>
+              </div>
+              <div className=" items-center w-full">
+                <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
+                  +62-8132-8404-065
+                </p>
+              </div>
+            </div>
           </div>
           <div className=" lg:items-center  lg:flex lg:mt-0 mt-8">
             <div className="grid grid-cols-6 md:gap-9">
               {medsos.map((link, i) => (
-                <a
-                  key={i}
-                  href={link.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="hover:bg-green-30 flex w-[50px] items-center justify-center ">
+                  <a
+                      key={i}
+                      href={link.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    <div className="hover:bg-green-30 flex w-[50px] items-center justify-center ">
                     <Image
                       src={
                         "/assets/sosmed/" +
