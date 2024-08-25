@@ -34,9 +34,9 @@ export function AktivitasKami() {
                     >
                         {activities.map((activity, index) => (
                             <SwiperSlide className={"mt-5 flex w-full justify-center "} key={index}>
-                                <div className={"w-full flex justify-center scale-[90%]"}>
+                                <div className={"w-full flex justify-center scale-[90%] lg:scale-[100%]"}>
                                 <div
-                                    className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[48rem] flex-row">
+                                    className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md w-full max-w-[52rem] flex-row">
                                     <div
                                         className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
                                         <img
