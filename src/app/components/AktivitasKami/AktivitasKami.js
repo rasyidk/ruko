@@ -24,6 +24,10 @@ export function AktivitasKami() {
                         slidesPerView={1}
                         spaceBetween={5}
                         loop={true}
+                        style={{
+                            "--swiper-navigation-color": "#0097B2",
+                            "--swiper-pagination-color": "#0097B2",
+                        }}
                         pagination={{
                             clickable: true,
                         }}
