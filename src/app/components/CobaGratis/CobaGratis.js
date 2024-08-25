@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CobaGratis() {
     return (
-        <section className="bg-[#fEfEfE] 2xl:px-52 lg:px-32">
+        <section className="bg-white 2xl:px-52 lg:px-32">
             <div
                 className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                 <div
