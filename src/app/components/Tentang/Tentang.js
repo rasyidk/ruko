@@ -34,6 +34,10 @@ export function Tentang() {
             pagination={{
               clickable: true,
             }}
+            style={{
+              "--swiper-navigation-color": "#0097B2",
+              "--swiper-pagination-color": "#0097B2",
+            }}
             navigation={true}
             modules={[Pagination, Navigation, Autoplay]}
             className="mySwiper"
