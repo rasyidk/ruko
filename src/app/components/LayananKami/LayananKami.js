@@ -130,7 +130,7 @@ const DummyContent = () => {
 const data = [
     {
         category: "Layanan Kami",
-        title: "Employment Permit System-Test of Proficiency in Korean (EPS-TOPIK)",
+        title: "KURSUS BAHASA KOREA EPS-TOPIK INTENSIF PROGRAM G TO G KERJA DI KOREA SELATAN",
         src: "/assets/layanan/eps.jpg",
         content: <EPSTOPIKContent/>,
         description: 'Kursus bahasa Korea EPS-TOPIK adalah Pelatihan bahasa Korea yang ditujukan kepada Masyarakat umum yang bertujuan untuk bekerja di Korea melalui pendaftaran Kerja Korea pada Program G to G Penempatan Pemerintah Indonesia di Korea Selatan secara RESMI. Program ini menyediakan lapangan pekerjaan pada bidang MANUFAKTUR; SHIP BUILDING; SERVICE; dan FISHING (Laut dan Tambak). '
