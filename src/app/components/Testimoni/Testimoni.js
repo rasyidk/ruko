@@ -251,7 +251,7 @@ export function SocialProofTestimonials() {
             <div className="py-14 font-poppins ">
                 <div className="container mx-auto px-4 md:px-8">
                     <h3 className="text-center text-primary text-3xl md:text-4xl font-semibold">
-                        TESTIMONI
+                        APA KATA MEREKA?
                     </h3>
                     <div className="relative mt-6 max-h-[650px] overflow-hidden rounded-lg">
                         <div className="gap-4 md:columns-2 xl:columns-3 2xl:columns-4">
