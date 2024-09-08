@@ -112,7 +112,7 @@ export const Carousel = ({
         (<CarouselContext.Provider value={{ onCardClose: handleCardClose, currentIndex }}>
             <div ref={carouselDiv} className="relative w-full">
                 <div
-                    className="flex w-full overflow-x-scroll overscroll-x-auto py-10 md:py-20 scroll-smooth [scrollbar-width:none]"
+                    className="flex w-full bg-cyan-300 overflow-x-scroll overscroll-x-auto py-10 md:py-20 scroll-smooth [scrollbar-width:none]"
                     ref={carouselRef}
                     onScroll={checkScrollability}>
                     <div
@@ -124,7 +124,7 @@ export const Carousel = ({
                         className={cn(
                             "flex flex-row justify-start gap-4 pl-4",
                             // remove max-w-4xl if you want the carousel to span the full width of its container
-                            "max-w-7xl mx-auto"
+                            " mx-auto"
                         )}>
                         {(isInView || isAlreadyInView) && items.map((item, index) => (
                             <motion.div
