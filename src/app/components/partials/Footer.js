@@ -64,7 +64,7 @@ export function Footer({ type }) {
               </div>
               <p className=" max-w-[530px] font-montserrat text-[12px]  md:text-[16px]">
                 Jl. Salakan No.6, RT.01, Randubelang, Bangunharjo, Kec. Sewon,
-                Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188 081328404065
+                Kabupaten Bantul, Daerah Istimewa Yogyakarta 55188
               </p>
             </div>
 
