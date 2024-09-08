@@ -117,12 +117,12 @@ export const Carousel = ({
                     onScroll={checkScrollability}>
                     <div
                         className={cn(
-                            "absolute right-0  z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
+                            "absolute right-0 z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
                         )}></div>
 
                     <div
                         className={cn(
-                            "flex flex-row justify-start gap-4 pl-4",
+                            "flex flex-row justify-start gap-4  pl-4",
                             // remove max-w-4xl if you want the carousel to span the full width of its container
                             " mx-auto"
                         )}>
@@ -143,7 +143,7 @@ export const Carousel = ({
                                     },
                                 }}
                                 key={"card" + index}
-                                className="last:pr-[5%] md:last:pr-[33%]  rounded-3xl">
+                                className="last:pr-[1%]   rounded-3xl">
                                 {item}
                             </motion.div>
                         ))}
