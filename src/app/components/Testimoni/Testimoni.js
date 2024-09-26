@@ -50,7 +50,7 @@ export const TestimonialCard = ({
 
         <div className="flex w-full select-none items-center justify-start gap-5">
             <img
-                src={img}
+                src={img || "https://randomuser.me/api/portraits/men/1.jpg"}
                 className="h-10 w-10 rounded-full  ring-1 ring-border ring-offset-4"
             />
 
@@ -62,7 +62,7 @@ export const TestimonialCard = ({
     </div>
 );
 
-const testimonials = [
+const testimonialsdummy = [
     {
         name: "Alex Rivera",
         role: "CTO at InnovateTech",
@@ -245,7 +245,7 @@ const testimonials = [
     },
 ];
 
-export function SocialProofTestimonials() {
+export function SocialProofTestimonials({testimonials}) {
     return (
         <section id="testimonials">
             <div className="py-14 font-poppins ">
