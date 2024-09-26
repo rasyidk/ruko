@@ -622,6 +622,11 @@
   "resolved" "https://registry.npmjs.org/pirates/-/pirates-4.0.6.tgz"
   "version" "4.0.6"
 
+"pocketbase@^0.21.5":
+  "integrity" "sha512-bnI/uinnQps+ElSlzxkc4yvwuSFfKcoszDtXH/4QT2FhGq2mJVUvDlxn+rjRXVntUjPfmMG5LEPZ1eGqV6ssog=="
+  "resolved" "https://registry.npmjs.org/pocketbase/-/pocketbase-0.21.5.tgz"
+  "version" "0.21.5"
+
 "postcss-import@^15.1.0":
   "integrity" "sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew=="
   "resolved" "https://registry.npmjs.org/postcss-import/-/postcss-import-15.1.0.tgz"

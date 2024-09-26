@@ -6,18 +6,30 @@ import CobaGratis from "@/app/components/CobaGratis/CobaGratis";
 import AktivitasKami from "@/app/components/AktivitasKami/AktivitasKami";
 import {SocialProofTestimonials, TestimonialCard} from "@/app/components/Testimoni/Testimoni";
 import {AppleCardsCarouselDemo} from "@/app/components/LayananKami/LayananKami";
+import {pb} from "@/lib/pocketbase";
+import {PBAdapter} from "@/lib/PBAdapter";
 
-export default function Home() {
-  return (
-    <div className={"scroll-smooth"}>
-      <HomeHero />
-      {/*<LayananKami />*/}
-        <AppleCardsCarouselDemo/>
-      <CobaGratis/>
-      <Partner />
-      <Tentang />
-      <AktivitasKami/>
-        <SocialProofTestimonials/>
-    </div>
-  );
+export default async function Home() {
+    const activities = (await pb.collection('Aktivitas').getFullList({
+        sort: '-created',
+    })).map(PBAdapter.adaptActivity)
+
+    const testimonials = (await pb.collection('Testimoni').getFullList({
+        sort: '-created',
+
+    })).map(PBAdapter.adaptTestimoni)
+
+
+    return (
+        <div className={"scroll-smooth"}>
+            <HomeHero/>
+            {/*<LayananKami />*/}
+            <AppleCardsCarouselDemo/>
+            <CobaGratis/>
+            <Partner/>
+            <Tentang/>
+            <AktivitasKami activities={activities} />
+            <SocialProofTestimonials testimonials={testimonials} />
+        </div>
+    );
 }

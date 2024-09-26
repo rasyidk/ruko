@@ -10,9 +10,9 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
-import activities from "@/database/activities";
+// import activities from "@/database/activities";
 
-export function AktivitasKami() {
+export function AktivitasKami({activities}) {
 
     return (
         <div className={"bg-[#edebeb] flex w-full 2xl:px-52 lg:px-32 py-20"}>
@@ -44,7 +44,7 @@ export function AktivitasKami() {
                                     <div
                                         className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
                                         <img
-                                            src={activity.image}
+                                            src={activity?.image || "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1471&amp;q=80"}
                                             alt="card-image" className="object-cover w-full h-full"/>
                                     </div>
                                     <div className="p-6">
