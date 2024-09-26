@@ -19,7 +19,6 @@ export default async function Home() {
 
     })).map(PBAdapter.adaptTestimoni)
 
-
     return (
         <div className={"scroll-smooth"}>
             <HomeHero/>
