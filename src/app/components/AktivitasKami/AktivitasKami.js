@@ -13,7 +13,6 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 // import activities from "@/database/activities";
 
 export function AktivitasKami({activities}) {
-
     return (
         <div className={"bg-[#edebeb] flex w-full 2xl:px-52 lg:px-32 py-20"}>
             <div className={"flex flex-col gap-6 my-8 w-full justify-center "}>
