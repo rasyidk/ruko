@@ -17,6 +17,7 @@ export default async function Home() {
 
     const testimonials = (await pb.collection('Testimoni').getFullList({
         // sort: '-created',
+        cache: "reload"
 
     })).map(PBAdapter.adaptTestimoni)
 
