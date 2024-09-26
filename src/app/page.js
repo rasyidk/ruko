@@ -11,11 +11,12 @@ import {PBAdapter} from "@/lib/PBAdapter";
 
 export default async function Home() {
     const activities = (await pb.collection('Aktivitas').getFullList({
-        sort: '-created',
+        // sort: '-created',
+        cache: "reload"
     })).map(PBAdapter.adaptActivity)
 
     const testimonials = (await pb.collection('Testimoni').getFullList({
-        sort: '-created',
+        // sort: '-created',
 
     })).map(PBAdapter.adaptTestimoni)
 
