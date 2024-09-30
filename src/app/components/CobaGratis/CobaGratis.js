@@ -19,7 +19,7 @@ export default function CobaGratis() {
                     </p>
                     <div
                         className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                        <a rel="noopener noreferrer" href="https://www.rumahepstopik.com/"
+                        <a rel="noopener noreferrer" href="https://rukoepstopik.com/"
                            className="px-8 py-3 text-lg font-semibold rounded bg-primary text-gray-50">Coba Sekarang</a>
                         <a rel="noopener noreferrer" href="https://wa.me/6281328404065?text=Halo%20Rumah%20Korea%20Indonesia%2C%20saya%20mau%20tanya%20tentang%20EPS-TOPIK%20Gratis%20Test%20Online."
                            className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800">Hubungi Kami</a>
