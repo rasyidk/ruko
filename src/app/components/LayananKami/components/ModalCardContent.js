@@ -91,6 +91,29 @@ const KoreaUmumContent = () => {
                             </p>
                         </li>
                     </ol>
+                    <p
+                        className="mt-5 text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                        <span className="font-bold text-neutral-700 ">
+                            Biaya Kursus:
+                        </span>
+                    </p>
+                    <ol className={"leading-relaxed"}>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                1. Level Dasar: Rp 500.000,-
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                2. 2.Level 1 : 1.500.000,-
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                3. 3.Level 2 : 2.500.000,-
+                            </p>
+                        </li>
+                    </ol>
                     <div className={"w-full flex justify-center mt-5"}>
                         <a rel="noopener noreferrer"
                            href="https://wa.me/6281328404065?text=Halo%20Rumah%20Korea%20Indonesia%2C%20saya%20mau%20tanya%20tentang%20kursus%20Bahasa%20Korea%20Umum."
@@ -291,8 +314,38 @@ const EPSTOPIKContent = () => {
                             </p>
                         </li>
                     </ol>
+                    <p
+                        className="mt-5 text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                        <span className="font-bold text-neutral-700 ">
+                            Program Bahasa Korea EPS-TOPIK Intensif (Belajar tatap muka dan menginap di asrama RuKo) selama 4 bulan
+                        </span>
+                    </p>
+                    <ol className={"leading-relaxed"}>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                1. 1.Biaya tahap pertama (dicicil 2 kali)
+                            </p>
+                            <p>
+                                - Uang kursus : Rp 4.500.000,-
+                            </p>
+                            <p>
+                                - Uang buku (Level Dasar, Level 1, dan Level 2)  : Rp 1.000.000,-
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                2.Biaya Tahap kedua Rp. 15.000.000,- (dibayarkan jika sudah bekerja di Korea)
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                3. 3.Pelaksanaan Angkatan 1_Januari-April | Angkatan 2_Mei-Agustus | Angkatan 3_ September-Desember.
+                            </p>
+                        </li>
+                    </ol>
                     <div className={"w-full flex justify-center mt-5"}>
-                        <a rel="noopener noreferrer" href="https://wa.me/6281328404065?text=Halo%20Rumah%20Korea%20Indonesia%2C%20saya%20mau%20tanya%20tentang%20kursus%20EPS-TOPIK."
+                        <a rel="noopener noreferrer"
+                           href="https://wa.me/6281328404065?text=Halo%20Rumah%20Korea%20Indonesia%2C%20saya%20mau%20tanya%20tentang%20kursus%20EPS-TOPIK."
                            className="px-8 py-3 text-lg font-semibold rounded bg-primary text-gray-50">Hubungi Kami</a>
                     </div>
                 </div>)
@@ -417,132 +470,136 @@ const IndonesiaContent = () => {
                     <p
                         className="text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
                         <span className="font-bold text-neutral-700 ">
-                            Keunggulan Program
+                            Keterangan Program G to G:
                         </span>
                     </p>
                     <ol className={""}>
                         <li>
                             <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
-                                1. Gratis biaya pendaftaran
+                                1. Lama bekerja = 4 tahun 10 bulan.
                             </p>
                         </li>
                         <li>
                             <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
-                                2. Gratis E-Book dan E-sertifikat
+                                2. Hari kerja = Senin-Jumat (08.00-18.00).
                             </p>
                         </li>
                         <li>
                             <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
-                                3. Guru Lulusan Program Studi Bhs. Korea dari Universitas Ternama di Indonesia dan Korea
-                                Selatan yang Fasih dan Aktif berbahasa Korea
+                                3. Gaji per Bulan = Min. 25 Juta rupiah.
                             </p>
                         </li>
                         <li>
                             <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
-                                4. Metode belajar yang digunakan adalah New Adaptif Learning Korea Style dan
-                                komprehensif materi dan latihan.
+                                4. Dapat Pesangon.
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                5. Dapat Asuransi Jiwa dan Kesehatan.
                             </p>
                         </li>
                     </ol>
                     <p
-                        className="mt-5 text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                        className="text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
                         <span className="font-bold text-neutral-700 ">
-                           PILIHAN LEVEL, DURASI BELAJAR, PROSES BELAJAR, & PERTEMUAN
+                            Syarat Peserta:
                         </span>
                     </p>
-                    <div className="overflow-x-auto">
-                        <table className="min-w-full text-center border border-black">
-                            <thead className="bg-cyan-600 text-white">
-                            <tr>
-                                <th rowSpan={2} className="px-4 py-2 border border-black">Level</th>
-                                <th rowSpan={2} className="px-4 py-2 border border-black">Durasi Belajar</th>
-                                <th className="px-4 py-2 border border-black" colSpan="3">Proses Belajar</th>
-                                <th rowSpan={2} className="px-4 py-2 border border-black">Pertemuan</th>
-                            </tr>
-                            <tr>
-                                <th className="px-4 py-2 border border-black">Materi</th>
-                                <th className="px-4 py-2 border border-black">Review</th>
-                                <th className="px-4 py-2 border border-black">Tes Akhir</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">A-1</td>
-                                <td className="px-4 py-2 border border-black">90'</td>
-                                <td className="px-4 py-2 border border-black">9 Bab</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">20 kali</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">A-2</td>
-                                <td className="px-4 py-2 border border-black">90'</td>
-                                <td className="px-4 py-2 border border-black">10 Bab</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">22 kali</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">B-1</td>
-                                <td className="px-4 py-2 border border-black">90'</td>
-                                <td className="px-4 py-2 border border-black">10 Bab</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">22 kali</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">B-2</td>
-                                <td className="px-4 py-2 border border-black">90'</td>
-                                <td className="px-4 py-2 border border-black">10 Bab</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">1 Kali</td>
-                                <td className="px-4 py-2 border border-black">22 kali</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <ol className={""}>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                1. Minimal lulusan SMA/SMK/MA/Sederajat lainnya
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                2. Laki/Perempuan tidak cacat fisik
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                3. Umur 18-25 Tahun
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                4. Tidak buta warna
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                5. Tidak memiliki penyakit menular (TB)
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                <span className={"text-red-500"}>Catatan :</span> Dokumen pendaftaran untuk kerja di
+                                Korea akan dipersiapkan setelah
+                                dinyatakan lolos level dasar.
+                            </p>
+                        </li>
+                    </ol>
                     <p
-                        className="mt-5 text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                        className="text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
                         <span className="font-bold text-neutral-700 ">
-                           BIAYA
+                            Program Online Reguler minimal peserta 2 orang:
                         </span>
                     </p>
-                    <div className="overflow-x-auto">
-                        <table className="min-w-full text-center border border-black">
-                            <thead className="bg-cyan-600 text-white">
-                            <tr>
-                                <th rowSpan={2} className="px-4 py-2 border border-black">Level</th>
-                                <th className="px-4 py-2 border border-black" colSpan="2">Biaya/Orang</th>
-                            </tr>
-                            <tr>
-                                <th className="px-4 py-2 border border-black text-neutral-800 bg-orange-300">PRIVAT</th>
-                                <th className="px-4 py-2 border border-black text-neutral-800 bg-orange-300">GRUP</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">A-1</td>
-                                <td className="px-4 py-2 border border-black">750 USD</td>
-                                <td className="px-4 py-2 border border-black">300 USD</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">A-2</td>
-                                <td className="px-4 py-2 border border-black">1000 USD</td>
-                                <td className="px-4 py-2 border border-black">500 USD</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">B-1</td>
-                                <td className="px-4 py-2 border border-black">1000 USD</td>
-                                <td className="px-4 py-2 border border-black">500 USD</td>
-                            </tr>
-                            <tr>
-                                <td className="px-4 py-2 border border-black">B-2</td>
-                                <td className="px-4 py-2 border border-black">1000 USD</td>
-                                <td className="px-4 py-2 border border-black">500 USD</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <ol className={""}>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                1. Biaya kursus Rp. 5.500.000 (dicicil 2 kali)
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                2. Belajar bhs Korea dari level dasar, level 1, dan level 2, tryout soal2 eps topik.
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                3. Gratis buku materi Pelajaran dan materi Latihan
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                4. Gratis baju kaos program
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                5. Gratis e-buku latihan soal eps topik
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                6. Gratis pendampingan sending data
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                7. Gratis e-sertifikat bahasa Korea level dasar, Level 1, dan level 2.
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                8.Pertemuan senin-jumat (pilihan jam 09.00-12.00 (pagi) dan atau | 13.30-16.30 (sore).
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                9.Proses belajar selama 3 bulan.
+                            </p>
+                        </li>
+                        <li>
+                            <p className=" text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                                <span className={"text-red-500"}>Catatan :</span> Dokumen pendaftaran untuk kerja di
+                                Korea akan dipersiapkan setelah
+                                dinyatakan lolos level dasar.
+                            </p>
+                        </li>
+                    </ol>
 
                     <div className={"w-full flex justify-center mt-5"}>
                         <a rel="noopener noreferrer"
