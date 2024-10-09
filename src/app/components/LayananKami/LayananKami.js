@@ -146,32 +146,32 @@ const DummyContent = () => {
 const data = [
     {
         category: "Layanan Kami",
-        title: "Kursus Bahasa Korea EPS-TOPIK Intensif Program G to G Kerja di Korea Selatan",
-        src: "/assets/layanan/eps.jpg",
-        content: <EPSTOPIKContent/>,
-        description: 'Kursus bahasa Korea EPS-TOPIK adalah Pelatihan bahasa Korea yang ditujukan kepada Masyarakat umum yang bertujuan untuk bekerja di Korea melalui pendaftaran Kerja Korea pada Program G to G Penempatan Pemerintah Indonesia di Korea Selatan secara RESMI. Program ini menyediakan lapangan pekerjaan pada bidang MANUFAKTUR; SHIP BUILDING; SERVICE; dan FISHING (Laut dan Tambak). '
-    },
-    {
-        category: "Layanan Kami",
-        title: "Kursus Bahasa Korea Umum",
+        title: "KURSUS ONLINE INTERAKTIF" +
+            "BAHASA KOREA UMUM",
         src: "/assets/layanan/korea-umum.jpg",
         content: <KoreaUmumContent/>,
         description: 'Kursus bahasa Korea umum merupakan pelatihan bahasa Korea yang ditujukan untuk siswa/wi SMA/SMK/MA; mahasiswa, dan masyarakat umum.'
     },
     {
         category: "Layanan Kami",
-        title: "Terjemahan (Korea-Indonesia / Indonesia-Korea)",
+        title: "KURSUS BAHASA KOREA EPS-TOPIK INTENSIF PROGRAM G TO KERJA DI KOREA SELATAN (TATAP MUKA)",
+        src: "/assets/layanan/eps.jpg",
+        content: <EPSTOPIKContent/>,
+        description: 'Kursus bahasa Korea EPS-TOPIK adalah Pelatihan bahasa Korea yang ditujukan kepada Masyarakat umum yang bertujuan untuk bekerja di Korea melalui pendaftaran Kerja Korea pada Program G to G Penempatan Pemerintah Indonesia di Korea Selatan secara RESMI. Program ini menyediakan lapangan pekerjaan pada bidang MANUFAKTUR; SHIP BUILDING; SERVICE; dan FISHING (Laut dan Tambak). '
+    },
+    {
+        category: "Layanan Kami",
+        title: "KURSUS ONLINE BAHASA KOREA EPS-TOPIK KERJA DI KOREA",
+        src: "/assets/layanan/indonesia.jpg",
+        content: <IndonesiaContent />,
+        description: 'Kursus online bahasa Korea EPS-TOPIK adalah Pelatihan bahasa Korea yang ditujukan kepada Masyarakat umum yang bertujuan untuk bekerja di Korea melalui pendaftaran Kerja Korea pada Program G to G Penempatan Pemerintah Indonesia di Korea Selatan secara RESMI. Program ini menyediakan lapangan pekerjaan pada bidang MANUFAKTUR; SHIP BUILDING; SERVICE; dan FISHING (Laut dan Tambak). '
+    },
+    {
+        category: "Layanan Kami",
+        title: "JASA TERJEMAHAN (KOREA-INDONESIA / INDONESIA-KOREA)",
         src: "/assets/layanan/translate.jpg",
         content: <TerjemahanContent/>,
         description: 'Rumah Korea Indonesia siap melayani translet dokumen dari bahasa Indonesia ke bahasa Korea dan dari bahasa Korea ke bahasa Indonesia untuk Institusi/Perusahaan/Badan Usaha/Perorangan '
-    },
-
-    {
-        category: "Layanan Kami",
-        title: "Kursus Bahasa Indonesia untuk Orang Korea",
-        src: "/assets/layanan/indonesia.jpg",
-        content: <IndonesiaContent />,
-        description: 'Kursus bahasa Indonesia untuk Orang Korea ini merupakan program kursus yang dilakukan secara Online Interaktif Via Zoom Meeting. Program Kursus Bahasa Indonesia interaktif dipandu oleh tutor Korean Language Expert Lulusan Universitas Ternama Korea dan Indonesia. “Kelas Interaktif Online” yang terdiri dari Tingkat Pemula A-1, Tingkat Pemula A-2, Tingkat Menengah B-1, dan Tingkat Menengah B-2.'
     },
     {
         category: "Layanan Kami",
