@@ -501,7 +501,7 @@ const IndonesiaContent = () => {
                         </li>
                     </ol>
                     <p
-                        className="text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                        className="text-neutral-600 mt-5  text-base md:text-2xl font-sans max-w-3xl mx-auto">
                         <span className="font-bold text-neutral-700 ">
                             Syarat Peserta:
                         </span>
@@ -541,7 +541,7 @@ const IndonesiaContent = () => {
                         </li>
                     </ol>
                     <p
-                        className="text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                        className="mt-5 text-neutral-600  text-base md:text-2xl font-sans max-w-3xl mx-auto">
                         <span className="font-bold text-neutral-700 ">
                             Program Online Reguler minimal peserta 2 orang:
                         </span>

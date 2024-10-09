@@ -146,15 +146,14 @@ const DummyContent = () => {
 const data = [
     {
         category: "Layanan Kami",
-        title: "KURSUS ONLINE INTERAKTIF" +
-            "BAHASA KOREA UMUM",
+        title: "KURSUS ONLINE INTERAKTIF BAHASA KOREA UMUM",
         src: "/assets/layanan/korea-umum.jpg",
         content: <KoreaUmumContent/>,
         description: 'Kursus bahasa Korea umum merupakan pelatihan bahasa Korea yang ditujukan untuk siswa/wi SMA/SMK/MA; mahasiswa, dan masyarakat umum.'
     },
     {
         category: "Layanan Kami",
-        title: "KURSUS BAHASA KOREA EPS-TOPIK INTENSIF PROGRAM G TO KERJA DI KOREA SELATAN (TATAP MUKA)",
+        title: "KURSUS BAHASA KOREA EPS-TOPIK INTENSIF PROGRAM G TO G KERJA DI KOREA SELATAN (TATAP MUKA)",
         src: "/assets/layanan/eps.jpg",
         content: <EPSTOPIKContent/>,
         description: 'Kursus bahasa Korea EPS-TOPIK adalah Pelatihan bahasa Korea yang ditujukan kepada Masyarakat umum yang bertujuan untuk bekerja di Korea melalui pendaftaran Kerja Korea pada Program G to G Penempatan Pemerintah Indonesia di Korea Selatan secara RESMI. Program ini menyediakan lapangan pekerjaan pada bidang MANUFAKTUR; SHIP BUILDING; SERVICE; dan FISHING (Laut dan Tambak). '
