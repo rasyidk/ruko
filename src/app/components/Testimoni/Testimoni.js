@@ -245,7 +245,10 @@ const testimonialsdummy = [
     },
 ];
 
-export function SocialProofTestimonials({testimonials}) {
+export function SocialProofTestimonials({ testimonials }) {
+    // Use provided testimonials or fallback to dummy data
+    const testimonialsData = testimonials || testimonialsdummy;
+    
     return (
         <section id="testimonials">
             <div className="py-14 font-poppins ">
@@ -255,7 +258,7 @@ export function SocialProofTestimonials({testimonials}) {
                     </h3>
                     <div className="relative mt-6 max-h-[650px] overflow-hidden rounded-lg">
                         <div className="gap-4 md:columns-2 xl:columns-3 2xl:columns-4">
-                            {Array(Math.ceil(testimonials.length / 3))
+                            {Array(Math.ceil(testimonialsData.length / 3))
                                 .fill(0)
                                 .map((_, i) => (
                                     <Marquee
@@ -267,7 +270,7 @@ export function SocialProofTestimonials({testimonials}) {
                                             "[--duration:70s]": i === 3,
                                         })}
                                     >
-                                        {testimonials.slice(i * 3, (i + 1) * 3).map((card, idx) => (
+                                        {testimonialsData.slice(i * 3, (i + 1) * 3).map((card, idx) => (
                                             <TestimonialCard {...card} key={idx} />
                                         ))}
                                     </Marquee>

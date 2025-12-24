@@ -4,22 +4,16 @@ import Partner from "./components/Partner/Partner";
 import Tentang from "./components/Tentang/Tentang";
 import CobaGratis from "@/app/components/CobaGratis/CobaGratis";
 import AktivitasKami from "@/app/components/AktivitasKami/AktivitasKami";
-import {SocialProofTestimonials, TestimonialCard} from "@/app/components/Testimoni/Testimoni";
+import {SocialProofTestimonials} from "@/app/components/Testimoni/Testimoni";
 import {AppleCardsCarouselDemo} from "@/app/components/LayananKami/LayananKami";
-import {pb} from "@/lib/pocketbase";
-import {PBAdapter} from "@/lib/PBAdapter";
+import { getActivities, getTestimonials } from "@/actions/data";
 
 export default async function Home() {
-    const activities = (await pb.collection('Aktivitas').getFullList({
-        // sort: '-created',
-        cache: "no-store"
-    })).map(PBAdapter.adaptActivity)
-
-    const testimonials = (await pb.collection('Testimoni').getFullList({
-        // sort: '-created',
-        cache: "no-store"
-
-    })).map(PBAdapter.adaptTestimoni)
+    // Fetch data in parallel instead of sequential
+    const [activities, testimonials] = await Promise.all([
+        getActivities(),
+        getTestimonials()
+    ]);
 
     return (
         <div className={"scroll-smooth"}>
